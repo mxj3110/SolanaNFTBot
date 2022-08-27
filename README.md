@@ -1,4 +1,5 @@
 # Solana NFT Bot
+# very hard to get this one. 
 
 Solana NFT bot is a helpful bot for your Solana NFT projects.
 
