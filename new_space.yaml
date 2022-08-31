@@ -1,0 +1,100 @@
+name: nft
+description:  toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. This template is created by nhancv.
+version: 3.0.0+202208001
+ 
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  meta: ^1.7.0
+  intl: ^0.17.0
+  flutter_screenutil: ^5.5.3+2
+  flutter_spinkit: ^5.1.0
+  fluttertoast: ^8.0.9
+  provider: ^6.0.3
+  logger: ^1.1.0
+  tuple: ^2.0.0
+  dio: ^4.0.6
+  email_validator: ^2.1.17
+  npreferences: ^5.0.0
+  simple_animations: ^5.0.0+2
+
+flutter_intl:
+  enabled: true
+
+dev_dependencies:
+  build_runner: ^2.2.0
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mockito: ^5.3.0
+  mocktail: ^0.3.0
+  test: ^1.21.1
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/base/icons/app_icon_ios.png"
+  image_path_android: "assets/base/icons/app_icon_ad.png"
+  adaptive_icon_background: "assets/base/icons/adaptive_icon_background.png" # for Android 8.0+ devices
+  adaptive_icon_foreground: "assets/base/icons/adaptive_icon_foreground.png" # for Android 8.0+ devices
+# To Generate icon
+#  flutter pub get
+#  flutter pub run flutter_launcher_icons:main
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/base/icons/
+    - assets/base/fonts/
+    - assets/app/icons/
+    - assets/app/fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/base/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/base/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/base/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/base/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/base/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/base/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+    - family: Lato
+      fonts:
+        - asset: assets/app/fonts/Lato/Lato-Thin.ttf
+          weight: 100
+        - asset: assets/app/fonts/Lato/Lato-ThinItalic.ttf
+          style: italic
+          weight: 100
+        - asset: assets/app/fonts/Lato/Lato-Light.ttf
+          weight: 300
+        - asset: assets/app/fonts/Lato/Lato-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/app/fonts/Lato/Lato-Regular.ttf
+          weight: 400
+        - asset: assets/app/fonts/Lato/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/app/fonts/Lato/Lato-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/app/fonts/Lato/Lato-Black.ttf
+          weight: 900
+        - asset: assets/app/fonts/Lato/Lato-BlackItalic.ttf
+          style: italic
+          weight: 900
